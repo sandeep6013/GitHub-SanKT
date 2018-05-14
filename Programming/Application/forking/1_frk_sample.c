@@ -1,4 +1,5 @@
-/* Purpose: Shows how to use Fork system call 
+/* Purpose: Shows how to use Fork system call, 
+ *          with out using exit status in parent 
  * Author : Sandeep Kumar M 
  */
 
