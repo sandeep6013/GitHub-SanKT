@@ -1,7 +1,7 @@
-/* Shows how to use Fork system call 
-Version : 1.0
-Author : Team -C
-*/
+/* Purpose: Shows how to use Fork system call, 
+ *          with exit status in parent and a change in global variable 
+ * Author : Sandeep Kumar M 
+ */
 
 # include <unistd.h>
 # include <sys/types.h>
