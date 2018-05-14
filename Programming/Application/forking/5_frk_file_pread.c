@@ -1,11 +1,7 @@
-/* Shows how to use Fork system call 
-Version : 1.0
-Author : Team -C
-In this example, child should acquire the file descriptors table 
-                 means even though open is done before fork, the 
-                 fd should be avaliable to child 
+/* Purpose: In this example, child should acquire the file descriptors table 
+            means even though open is done before fork, the fd should be avaliable to child 
+ * Author : Sandeep Kumar M 
  */
-
 # include <unistd.h>
 # include <sys/types.h>
 # include <stdio.h>
