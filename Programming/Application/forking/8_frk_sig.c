@@ -1,7 +1,6 @@
-/* Shows how to use Fork system call 
-Version : 1.0
-Author : Team -C
-*/
+/* Purpose: In this example, usage of signal handler using fork
+ * Author : Sandeep Kumar M 
+ */ 
 
 # include <unistd.h>
 # include <sys/types.h>
