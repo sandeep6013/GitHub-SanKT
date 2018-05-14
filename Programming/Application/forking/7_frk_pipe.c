@@ -1,10 +1,13 @@
-/*
- * FIFO's
- *
- * have your program Create a node using mkfifo or mknod function
- * call. Fork and then have the child stuff a message in the FIFO and
- * have the parent read it and print it out.
+/* Purpose: In this example, Create a node using mkfifo or mknod function call. 
+ *          Fork and then have the child stuff a message in the FIFO and
+ *          read it in parent context and print it out.
+ *          b/w two process
+ * Author : Sandeep Kumar M 
  */
+ have your program Create a node using mkfifo or mknod function
+ call. Fork and then have the child stuff a message in the FIFO and
+ have the parent read it and print it out.
+
 
 #include <stdio.h>
 #include <unistd.h>
