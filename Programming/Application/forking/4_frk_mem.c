@@ -1,5 +1,5 @@
 /* Purpose: Shows how to use Fork system call, 
- *          with change in pointer varibale and a change its value in child and parent context 
+ *          with change in pointer varibale value in child and parent context 
  * Author : Sandeep Kumar M 
  */
 #include <stdio.h>
