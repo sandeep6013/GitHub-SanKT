@@ -1,3 +1,7 @@
+/* Purpose: In this example, common memory is created to allow communication 
+ *          b/w two process
+ * Author : Sandeep Kumar M 
+ */
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
