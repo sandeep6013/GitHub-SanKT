@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <pthread.h>
 
-#define MAX 4 
+#define MAX 2 
 
 int a[MAX][MAX];
 int b[MAX][MAX];
