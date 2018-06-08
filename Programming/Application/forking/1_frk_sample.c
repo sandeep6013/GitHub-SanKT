@@ -19,6 +19,7 @@ main(){
 	getchar();
 	if( pid == CHILD){
         getchar();
+        printf("Hello World!\n");
 		printf(" child: My pid = %d \n", getpid());
 		//while(1);
 	}
